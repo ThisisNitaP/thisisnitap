@@ -34,7 +34,7 @@
   ## (and the matrix has not changed), then cacheSolve should retrieve the inverse
   ## from the cache.
 
-  cacheSolve <- function(x, ...) {
+  cacheSolve <- function(x, ...) { 
   ## Retrieving value from getMatrixInverse and assigning to matrixInverse          
           matrixInverse <- x$getMatrixInverse()
   ## logic to see if matrixInverse has any cached data          
